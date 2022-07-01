@@ -1,0 +1,35 @@
+.GreetF {
+    background-color: rgb(32, 114, 87);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    border: 0.5em solid;
+}
+.message {
+    background-color: aquamarine;
+    padding: 1em;
+    margin: 1em;  
+}
+.data {
+    padding: 1em;
+    margin: 0.1em;
+}
+.buttons {
+    background-color: chocolate;
+    padding: 0.5em;
+}
+.buttons:hover{
+    background-color: chartreuse;
+}
+.TrasportF {
+    background-color: rgb(32, 114, 87);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    border: 0.5em solid;
+}
+.price {
+    background-color: aquamarine;
+    padding: 1em;
+    margin: 1em; 
+}

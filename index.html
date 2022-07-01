@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="greet.js"></script>
+    <script src="TrasportFee.js"></script>
+
+    <script src="Greet-Widget.js" defer></script>
+    <script src="TransportFee-Widget.js" defer></script>
+    <script src="//unpkg.com/alpinejs" defer></script>
+
+    
+
+</head>
+
+<body>
+    <div class="GreetF" x-data="dataForGreet">
+
+    <h1>Greet Widget</h1>
+    <div class="message" x-text="message">
+        greeted here
+    </div>
+
+    <label  class="data" for="name">Please enter user name: </label>
+    <input type="text" x-model="name" id="name">
+    
+    <button class="buttons" @click="greetMe">Greet!</button>
+    </div>
+
+
+    <div class="TrasportF" x-data="dataForTransportFee">
+        <h1>Transport Fee Widget</h1>
+
+        <div class="price" x-text="price">
+            transport fee here
+        </div>
+
+        <label class="data" for="shift">Which Shift???</label>
+        <input type="text" x-model="shift" id="shift">
+
+        <button class="buttons" @click="whichShift">Fee?</button>
+    </div>
+    
+</body>
+</html>
