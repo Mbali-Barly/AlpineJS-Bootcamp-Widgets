@@ -21,6 +21,6 @@ function enoughAirtime(projectedUsage, amountOfAirtime) {
       return 'R' + shad.toFixed(2); }
     else return 'R0.00';
   }
-  
-   
+
+
   
