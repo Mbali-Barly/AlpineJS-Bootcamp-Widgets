@@ -1,9 +1,9 @@
 function transportFee (shift) {
-    if (shift.startsWith('morning')) {
+    if (shift.includes('orning')) {
         return 'R20';
-    }   else if (shift.startsWith('afternoon')) {
+    }   else if (shift.includes('fternoon')) {
         return 'R10';
-        }   else if (shift.startsWith('nightshift')) {
-        return 'free';
+        }   else if (shift.includes('ight')) {
+        return 'Free';
         }
   }
