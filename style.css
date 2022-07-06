@@ -1,9 +1,14 @@
+body {
+    background-image: repeating-linear-gradient(rgb(141, 134, 31), blue);
+}
 .GreetF {
     background-color: rgb(32, 114, 87);
     padding: 1em;
     margin: 1em;
     border-radius: 1em;
     border: 0.5em solid;
+    width: 50%;
+    height: 13.5em;
 }
 .message {
     background-color: aquamarine;
@@ -27,6 +32,8 @@
     margin: 1em;
     border-radius: 1em;
     border: 0.5em solid;
+    width: 50%;
+    height: 13.5em;
 }
 .price {
     background-color: aquamarine;
@@ -39,11 +46,33 @@
     margin: 1em;
     border-radius: 1em;
     border: 0.5em solid;
+    width: 50%;
+    height: 13.5em;
 }
 .bill {
     background-color: aquamarine;
     padding: 1em;
     margin: 1em; 
+}
+.EnoughAirtimeF {
+    background-color: rgb(32, 114, 87);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    border: 0.5em solid;
+    width: 50%;
+    height: 13.5em;
+}
+.output {
+    background-color: aquamarine;
+    padding: 1em;
+    margin: 1em; 
+}
+.dataA {
+    display: inline-block;
+    width: 9em;
+    padding: 0.3em;
+    margin: 0.1em;
 }
 .ExpensiveItemsF {
     background-color: rgb(32, 114, 87);
@@ -51,9 +80,29 @@
     margin: 1em;
     border-radius: 1em;
     border: 0.5em solid;
+    /* width: 50%; */
+    height: 12em;
 }
-.bill {
+.product {
     background-color: aquamarine;
     padding: 1em;
     margin: 1em; 
+}
+h1 {text-align: center;}
+
+@media (min-width: 768px) {
+.firstWidgets {
+    display: flex;
+    padding: 1em;
+}
+/* .firstWidgets {
+    flex: 1;
+} */
+.secondWidgets {
+    display: flex;
+    padding: 1em;
+}
+/* .secondWidgets {
+    flex: 1;
+} */
 }
