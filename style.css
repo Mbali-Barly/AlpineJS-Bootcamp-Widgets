@@ -8,7 +8,7 @@ body {
     border-radius: 1em;
     border: 0.5em solid;
     width: 50%;
-    height: 13.5em;
+    height: 15em;
 }
 .message {
     background-color: aquamarine;
@@ -33,7 +33,7 @@ body {
     border-radius: 1em;
     border: 0.5em solid;
     width: 50%;
-    height: 13.5em;
+    height: 15em;
 }
 .price {
     background-color: aquamarine;
@@ -47,7 +47,7 @@ body {
     border-radius: 1em;
     border: 0.5em solid;
     width: 50%;
-    height: 13.5em;
+    height: 15em;
 }
 .bill {
     background-color: aquamarine;
@@ -61,7 +61,7 @@ body {
     border-radius: 1em;
     border: 0.5em solid;
     width: 50%;
-    height: 13.5em;
+    height: 15em;
 }
 .output {
     background-color: aquamarine;
