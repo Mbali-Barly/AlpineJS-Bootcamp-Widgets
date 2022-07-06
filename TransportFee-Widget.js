@@ -6,6 +6,10 @@ document.addEventListener('alpine:init', () => {
        
         whichShift () {
             this.price = transportFee(this.shift);
+
+        setTimeout(() => {
+            this.price = '';
+            }, 5000);
         }  
     }   
     })

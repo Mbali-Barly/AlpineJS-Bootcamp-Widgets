@@ -9,20 +9,21 @@
 
     <script src="greet.js"></script>
     <script src="TrasportFee.js"></script>
+    <script src="TotalPhoneBill.js"></script>
 
     <script src="Greet-Widget.js" defer></script>
     <script src="TransportFee-Widget.js" defer></script>
+    <script src="TotalPhoneBill-Widget.js" defer></script>
     <script src="//unpkg.com/alpinejs" defer></script>
-
-    
+  
 
 </head>
 
 <body>
-    <div class="GreetF" x-data="dataForGreet">
+<div class="GreetF" x-data="dataForGreet">
 
     <h1>Greet Widget</h1>
-    <div class="message" x-text="message">
+    <div class="message" x-show="message.length > 0" x-text="message">
         greeted here
     </div>
 
@@ -30,13 +31,13 @@
     <input type="text" x-model="name" id="name">
     
     <button class="buttons" @click="greetMe">Greet!</button>
-    </div>
+</div>
 
 
-    <div class="TrasportF" x-data="dataForTransportFee">
+<div class="TrasportF" x-data="dataForTransportFee">
         <h1>Transport Fee Widget</h1>
 
-        <div class="price" x-text="price">
+        <div class="price" x-show="price.length > 0" x-text="price">
             transport fee here
         </div>
 
@@ -44,7 +45,44 @@
         <input type="text" x-model="shift" id="shift">
 
         <button class="buttons" @click="whichShift">Fee?</button>
+</div>
+
+
+<div class="PhoneBillF" x-data="dataForPhoneBill">
+        <h1>Total Phone Bill Widget</h1>
+
+        <div class="bill" x-show="bill.length > 0" x-text="bill">
+            phone bill here
+        </div>
+
+        <label class="data" for="usage">Enter phone usage!!!</label>
+        <input type="text" x-model="usage" id="usage">
+
+        <button class="buttons" @click="totalUsage">Amount?</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="ExpensiveItemsF" x-data="dataForPhoneBill">
+    <h1>Expensive Items Widget</h1>
+
+    <div class="bill" x-text="bill">
+        expensive items here
     </div>
+
+    <label class="data" for="usage">Enter phone usage!!!</label>
+    <input type="text" x-model="usage" id="usage">
+
+    <button class="buttons" @click="totalUsage">Amount?</button>
+</div>
     
 </body>
 </html>

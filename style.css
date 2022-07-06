@@ -33,3 +33,27 @@
     padding: 1em;
     margin: 1em; 
 }
+.PhoneBillF {
+    background-color: rgb(32, 114, 87);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    border: 0.5em solid;
+}
+.bill {
+    background-color: aquamarine;
+    padding: 1em;
+    margin: 1em; 
+}
+.ExpensiveItemsF {
+    background-color: rgb(32, 114, 87);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    border: 0.5em solid;
+}
+.bill {
+    background-color: aquamarine;
+    padding: 1em;
+    margin: 1em; 
+}
